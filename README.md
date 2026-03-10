@@ -171,15 +171,16 @@ Ferramentas: Hadoop, R, SQL, Python, XGBoost Regressor , Random Forest Regressor
 
 # Proximos Passos
 
-Em projetos seguintes, além do que já foi feito, podem ser incrementados:
+No Proximo Passo do modelo CRISP-DM, podem ser incrementados:
 
 Testar outros algoritmos de Machine Learning
 
-Trabalhar com outras features em outros ciclos do CRISP
+Trabalhar com outras features
 
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
-Criar outras opções de comunicação no chat do Bot Telegram
+Criação de um Bot no Whatsapp para melhor visualização.
+
 
 
 
