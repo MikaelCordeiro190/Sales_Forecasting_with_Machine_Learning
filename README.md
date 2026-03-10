@@ -106,7 +106,8 @@ Cross Validation é uma técnica muito utilizada para avaliação de desempenho 
 
 Com esse método de validação, foram obtidas as seguintes performances:
 
-![image](https://github.com/user-attachments/assets/2cdfab23-59d6-4f43-8fd9-b4a4f01d2efd)
+<img width="439" height="162" alt="image" src="https://github.com/user-attachments/assets/d15ab416-354a-42de-9f30-e5562e92d325" />
+
 
 
 
@@ -177,6 +178,7 @@ Trabalhar com outras features em outros ciclos do CRISP
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
 Criar outras opções de comunicação no chat do Bot Telegram
+
 
 
 
