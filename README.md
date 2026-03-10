@@ -117,15 +117,17 @@ Apesar de diversos modelos terem sido avaliados durante o processo de validaçã
 
 Dessa forma, o Random Forest Regressor foi selecionado para prosseguimento na etapa de otimização de hiperparâmetros (Hyperparameter Fine Tuning). A escolha se justifica pelo seu desempenho superior durante a fase de validação, demonstrando maior capacidade de capturar padrões complexos nos dados e reduzir o erro de previsão.
 
-![image](https://github.com/user-attachments/assets/2aaf7f23-737b-4406-98da-7ef0d832443e)
+<img width="432" height="87" alt="image" src="https://github.com/user-attachments/assets/a1b0f2b5-04a6-4318-acfc-64e1a0553b06" />
+
 
 
 
 # Hiperparâmetros
 
-Foi empregada a técnica de Bayesian SearchCV para otimizar a busca dos melhores hiperparâmetros. A fim de identificar o parâmetro ideal, optei por utilizar uma amostra referente a um período de 1 ano. Essa escolha permite aumentar o número de iterações em um espaço de tempo reduzido, maximizando a probabilidade de localizar um mínimo global.
+Foi empregada a técnica de Random Search para otimizar a busca dos melhores hiperparâmetros. A fim de identificar o parâmetro ideal, optei por utilizar uma amostra referente a um período de 1 ano. Essa escolha permite aumentar o número de iterações em um espaço de tempo reduzido, maximizando a probabilidade de localizar um mínimo global.
 
-![image](https://github.com/user-attachments/assets/d7059dfa-59f3-4de1-974e-dee3d4f2300d)
+<img width="348" height="54" alt="image" src="https://github.com/user-attachments/assets/28b36c0a-0de7-4485-a01b-73d5610ba68e" />
+
 
 
 # Performance do modelo
@@ -178,6 +180,7 @@ Trabalhar com outras features em outros ciclos do CRISP
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
 Criar outras opções de comunicação no chat do Bot Telegram
+
 
 
 
