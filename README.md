@@ -81,6 +81,7 @@ Linear Regression
 Linear Regression - Lasso
 Random Forest Regressor
 XGBRegressor
+Decision Tree Regressor
 
 Após a seleção dos algoritmos, procedemos com o treinamento e teste de cada um deles para avaliar sua performance. Além disso, utilizamos o método de seleção de features RFE para identificar as variáveis mais relevantes e impactantes na base de dados.
 
@@ -92,7 +93,8 @@ Os 5 algoritmos foram treinados e as métricas MAE, MAPE e RMSE. Aqui, nesta eta
 
 *RMSE* (Root Mean Squared Error): O RMSE é uma métrica de avaliação comum em modelos de regressão que calcula a raiz quadrada da média dos quadrados das diferenças entre as previsões do modelo e os valores reais. O RMSE fornece uma medida da dispersão dos erros no modelo, onde valores menores indicam uma melhor precisão do modelo. Ele é sensível a grandes erros devido à natureza quadrática do cálculo.
 
-![image](https://github.com/user-attachments/assets/a95011b4-d31e-45ee-8091-bc9d2b9a7dd4)
+![image](<img width="373" height="193" alt="image" src="https://github.com/user-attachments/assets/5500e612-9b14-4b78-af88-3159f9692ebc" />
+)
 
 
 # 1.2 Time Series Cross-Validation
@@ -175,5 +177,6 @@ Trabalhar com outras features em outros ciclos do CRISP
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
 Criar outras opções de comunicação no chat do Bot Telegram
+
 
 
