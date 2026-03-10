@@ -113,9 +113,9 @@ Com esse método de validação, foram obtidas as seguintes performances:
 
 # 1.1 Escolha do Modelo
 
-Apesar do modelo de Random Forest Regressor apresentar melhor desempenho, o modelo escolhido para prosseguimento e otimização dos hiperparâmetros (Hyperparameter Fine Tuning) foi o XGBoost Regressor. O processamento do XGBosst foi escolhido, por ser mais rápido e mais simples que a Random Forest, além de verificar que a diferença entre os RMSE dos dois modelos não foi tão relevante.
+Apesar de diversos modelos terem sido avaliados durante o processo de validação cruzada, o Random Forest Regressor apresentou o melhor desempenho geral entre os algoritmos testados. Esse modelo obteve os menores valores nas principais métricas de erro, incluindo MAE (1181.06), MAPE (0.17) e RMSE (1660.94), indicando maior precisão nas previsões em comparação aos demais modelos.
 
-Performance Final: após a utilização da técnica de Random Forest, na otimização dos Hyperparameter Fine Tuning, o modelo final apresentou as seguintes métricas de erro:
+Dessa forma, o Random Forest Regressor foi selecionado para prosseguimento na etapa de otimização de hiperparâmetros (Hyperparameter Fine Tuning). A escolha se justifica pelo seu desempenho superior durante a fase de validação, demonstrando maior capacidade de capturar padrões complexos nos dados e reduzir o erro de previsão.
 
 ![image](https://github.com/user-attachments/assets/2aaf7f23-737b-4406-98da-7ef0d832443e)
 
@@ -178,6 +178,7 @@ Trabalhar com outras features em outros ciclos do CRISP
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
 Criar outras opções de comunicação no chat do Bot Telegram
+
 
 
 
