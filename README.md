@@ -93,8 +93,8 @@ Os 5 algoritmos foram treinados e as métricas MAE, MAPE e RMSE. Aqui, nesta eta
 
 *RMSE* (Root Mean Squared Error): O RMSE é uma métrica de avaliação comum em modelos de regressão que calcula a raiz quadrada da média dos quadrados das diferenças entre as previsões do modelo e os valores reais. O RMSE fornece uma medida da dispersão dos erros no modelo, onde valores menores indicam uma melhor precisão do modelo. Ele é sensível a grandes erros devido à natureza quadrática do cálculo.
 
-![image](<img width="373" height="193" alt="image" src="https://github.com/user-attachments/assets/5500e612-9b14-4b78-af88-3159f9692ebc" />
-)
+<img width="358" height="194" alt="image" src="https://github.com/user-attachments/assets/eb2b8bf2-a3e8-468f-8854-e921034ab8bd" />
+
 
 
 # 1.2 Time Series Cross-Validation
@@ -177,6 +177,7 @@ Trabalhar com outras features em outros ciclos do CRISP
 Utilizar outra estratégia para Fine Tuning Hyperparameter
 
 Criar outras opções de comunicação no chat do Bot Telegram
+
 
 
 
